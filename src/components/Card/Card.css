@@ -1,0 +1,23 @@
+.article-card{
+    width: 50%;
+    padding: 0;
+    margin: 1em;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.article-card-body{
+    padding: 1.5em;
+}
+
+.article-card-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

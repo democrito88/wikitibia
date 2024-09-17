@@ -12,6 +12,9 @@ const ClassList = ({classList}) => {
       try {
         const data = await getClassList(classList);
         if(data.creatures === undefined){
+          if(data.worlds === undefined){
+            setElements(data.spells.spell_list);  
+          }
           setElements(data.worlds.regular_worlds);
         }else{
           setElements(data.creatures.creature_list);
@@ -32,7 +35,7 @@ const ClassList = ({classList}) => {
 
   return (
     <div className='caixa-lista'>
-      <h1>{classList}</h1>
+      <h3>{classList}</h3>
       <ul className='lista'>
         {elements.map((element, index) => (
           <li key={index}>
