@@ -1,13 +1,19 @@
+.article{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
 .article-card{
-    width: 50%;
     padding: 0;
     margin: 1em;
     border: 1px solid gray;
     border-radius: 10px;
+    width: min-content;
 }
 
 .card-img{
-    width: 100%;
+    width: 33vw;
 }
 
 .article-card-body{

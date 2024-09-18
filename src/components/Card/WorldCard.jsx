@@ -8,7 +8,7 @@ const WorldCard = (props) => {
     }
 
     return (
-        <>
+        <div className="article">
             <Card>
                 <ul className="article-card-list">
                     <li>
@@ -74,7 +74,7 @@ const WorldCard = (props) => {
                 </ul>
             </Card>
             <GuildsList name={props.data?.name} />
-        </>
+        </div>
     );
 }
 
