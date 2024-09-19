@@ -15,6 +15,9 @@ function App() {
             <Route path="/:classList/:name" element={<Article />} />
           </Routes>
         </main>
+        <footer>
+          <h6>Wikitibia  - 2024</h6>
+        </footer>
       </BrowserRouter>
     </>
   );
