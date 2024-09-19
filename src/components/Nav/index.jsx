@@ -10,6 +10,15 @@ const Nav = () => {
                 <li>
                     <Link to={"/"}>Home</Link>
                 </li>
+                <li>
+                    <Link to={"/worlds"}>Worlds</Link>
+                </li>
+                <li>
+                    <Link to={"/creatures"}>Creatures</Link>
+                </li>
+                <li>
+                    <Link to={"/spells"}>Spells</Link>
+                </li>
             </ul>
         </nav>
     );
