@@ -9,7 +9,7 @@
     margin: 1em;
     border: 1px solid gray;
     border-radius: 10px;
-    width: min-content;
+    /*width: min-content;*/
 }
 
 .card-img{

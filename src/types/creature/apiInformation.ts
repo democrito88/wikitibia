@@ -3,3 +3,5 @@ interface ApiInformation {
     release: string;
     commit: string;
 }
+
+export default ApiInformation;

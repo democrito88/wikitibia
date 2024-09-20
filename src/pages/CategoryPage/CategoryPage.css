@@ -1,0 +1,13 @@
+.category-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text-green{
+    color: green;
+}
+
+.text-red{
+    color: red;
+}
