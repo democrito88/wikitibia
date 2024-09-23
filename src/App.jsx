@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Article from "./pages/Article";
 import Nav from "./components/Nav";
 import CategoryPage from './pages/CategoryPage';
+import News from './pages/News';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/:classList/:name" element={<Article />} />
             <Route path="/:category" element={<CategoryPage />} />
+            <Route path="/news/id/:id" element={<News />} />
           </Routes>
         </main>
         <footer>
