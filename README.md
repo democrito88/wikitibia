@@ -9,8 +9,8 @@
 A front-end only aplication that consumes a tibia API - [https://docs.tibiadata.com](https://docs.tibiadata.com) - and shows a portal with creatures, spells, worlds, guilds and the latest news.
 
 ### Author 
-[Demócrito d'anunciação](https://github.com/democrito88)
+[Demócrito d'Anunciação](https://github.com/democrito88)
 
-## Special Thanks
+### Special Thanks
 To the [Tibia API](https://docs.tibiadata.com/)
 Tibia &copy; is an copyrighted online game. The authors of this project doesn't own any rights and it is non-profit.
