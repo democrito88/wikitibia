@@ -1,6 +1,8 @@
 .navbar{
     padding: 1em;
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navbar ul{
@@ -14,4 +16,8 @@
 .navbar li{
     color: white;
     text-decoration: none;
+}
+
+.navbar h3{
+    color: var(--cor-titulo);
 }

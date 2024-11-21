@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Nav.css";
+import logo from "../../../public/busca.png";
 
 const Nav = () => {
     return(
         <nav className='navbar'>
+            <img src={logo} height={16} />
             <h3>Wikitibia</h3>
             <ul>
                 <li>

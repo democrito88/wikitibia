@@ -9,19 +9,22 @@ import News from './pages/News';
 function App() {
   return (
     <>
+      <div className='fundo'>
+      </div>
       <BrowserRouter>
-        <Nav />
         <main className='container'>
+        <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/:classList/:name" element={<Article />} />
             <Route path="/:category" element={<CategoryPage />} />
             <Route path="/news/id/:id" element={<News />} />
+            <Route path="*" element={<Error />} />
           </Routes>
-        </main>
-        <footer>
+        <footer className='footer'>
           <h6>Wikitibia  - 2024</h6>
         </footer>
+        </main>
       </BrowserRouter>
     </>
   );

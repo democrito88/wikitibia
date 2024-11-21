@@ -1,3 +1,6 @@
 .news-card{
     width: max-content;
+    border-color: var(--cor-titulo);
+    color: var(--cor-titulo);
+    text-decoration: none;
 }
